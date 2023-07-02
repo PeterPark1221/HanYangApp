@@ -30,7 +30,7 @@ struct MyprofileView: View {
                     
                     Rectangle()
                         .foregroundColor(.gray)
-                        .frame(width: 100, height: )
+                        .frame(width: 100, height: 200)
                 }
                 
                 
