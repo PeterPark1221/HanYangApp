@@ -14,6 +14,7 @@
 		354B812B2A491C0300E558F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354B812A2A491C0300E558F5 /* Assets.xcassets */; };
 		354B812E2A491C0300E558F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354B812D2A491C0300E558F5 /* Preview Assets.xcassets */; };
 		355A93AC2A4D727400F03D93 /* MyprofileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355A93AB2A4D727400F03D93 /* MyprofileView.swift */; };
+		35CFDD1C2A519A6D009DF12B /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CFDD1B2A519A6D009DF12B /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		354B812A2A491C0300E558F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		354B812D2A491C0300E558F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		355A93AB2A4D727400F03D93 /* MyprofileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyprofileView.swift; sourceTree = "<group>"; };
+		35CFDD1B2A519A6D009DF12B /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,13 +77,22 @@
 		354B81342A49200300E558F5 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				35CFDD1A2A519A55009DF12B /* Views */,
 				354B81262A491C0100E558F5 /* ProjectApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		35CFDD1A2A519A55009DF12B /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				354B81282A491C0100E558F5 /* ContentView.swift */,
 				355A93AB2A4D727400F03D93 /* MyprofileView.swift */,
 				352DBEB42A4D6A28003DDAFA /* LoginView.swift */,
 				352DBEB62A4D6D7D003DDAFA /* launchView.swift */,
+				35CFDD1B2A519A6D009DF12B /* AccountView.swift */,
 			);
-			path = App;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35CFDD1C2A519A6D009DF12B /* AccountView.swift in Sources */,
 				352DBEB52A4D6A28003DDAFA /* LoginView.swift in Sources */,
 				352DBEB72A4D6D7D003DDAFA /* launchView.swift in Sources */,
 				355A93AC2A4D727400F03D93 /* MyprofileView.swift in Sources */,

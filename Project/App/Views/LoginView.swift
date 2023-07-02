@@ -22,6 +22,7 @@ struct LoginView: View {
                         .scaledToFill()
                         .frame(width:150, height: 150)
                         .padding(.bottom, 8)
+                    
                     TextField("Enter your ID", text: $ID)
                         .font(.subheadline)
                         .padding(12)
@@ -95,14 +96,14 @@ struct LoginView: View {
                     Spacer()
                     Divider()
                     
-                    //나중에 navigationlink를 통해 아이디뷰로 전환
-                    Button(action: {
-                        //
-                    }, label: {
-                        Text("Don't have an account?")
-                        Text("Sign up!")
-                            .fontWeight(.semibold)
+                    
+                    NavigationLink(destination: AccountView().navigationBarBackButtonHidden(), label: {
+                        
+                            Text("Don't have an account?")
+                            Text("Sign up!")
+                                .fontWeight(.semibold)
                     })
+                    //나중에 navigationlink를 통해 아이디뷰로 전환
                 }
                 .padding(.top, 80)
             }
