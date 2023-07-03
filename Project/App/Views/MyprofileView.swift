@@ -25,12 +25,16 @@ struct MyprofileView: View {
                                     .resizable()
                                     .imageScale(.large)
                                     .foregroundColor(.black)
+                                    .overlay {
+                                        Image(systemName: "plus").padding(.top, 50)
+                                            .padding(.leading, 80)
+                                    }
                             })
                         }
                     
                     Rectangle()
                         .foregroundColor(.gray)
-                        .frame(width: 100, height: 200)
+                        .frame(width: 120, height: 32)
                 }
                 
                 

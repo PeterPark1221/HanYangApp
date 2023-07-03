@@ -41,7 +41,7 @@ struct ContentView: View {
                         Text("Info")
                     }
             }
-            .accentColor(.black) //view 색
+            .accentColor(Color("seablue")) //view 색
             .onAppear{ //tabview background색 변경
                 UITabBar.appearance().backgroundColor = .white
             }

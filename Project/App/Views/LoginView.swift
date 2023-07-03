@@ -45,6 +45,7 @@ struct LoginView: View {
                         Text("Forgot password?")
                             .font(.footnote)
                             .fontWeight(.semibold)
+                            .foregroundColor(Color("seablue"))
                             .padding(.top)
                             .padding(.trailing, 28)
                     })
@@ -76,7 +77,9 @@ struct LoginView: View {
                             .foregroundColor(.gray)
                     }
                     
+                    
                     //한양대 포털사이트 URL받아와서 로그인
+                    
                     HStack {
                         Button(action: {
                             Text("login with hanyang potal")
@@ -89,12 +92,12 @@ struct LoginView: View {
                             Text("Continue with Hanyang")
                                 .font(.footnote)
                                 .fontWeight(.semibold)
+                                .foregroundColor(Color("seablue"))
                                 .foregroundColor(Color(.systemBlue))
                         })
                     }
                     .padding(.top, 8)
                     Spacer()
-                    Divider()
                     
                     
                     NavigationLink(destination: AccountView().navigationBarBackButtonHidden(), label: {
@@ -103,8 +106,8 @@ struct LoginView: View {
                             Text("Sign up!")
                                 .fontWeight(.semibold)
                     })
-                    //나중에 navigationlink를 통해 아이디뷰로 전환
-                }
+                    .foregroundColor(Color("seablue"))
+                    }
                 .padding(.top, 80)
             }
         }
