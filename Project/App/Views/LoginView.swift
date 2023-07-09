@@ -39,7 +39,7 @@ struct LoginView: View {
                         .padding(.horizontal, 24)
                     
                     Button(action: {
-                        Text("find password")
+                        //Text("find password")
                     }, label: {
                         Spacer()
                         Text("Forgot password?")
@@ -82,7 +82,7 @@ struct LoginView: View {
                     
                     HStack {
                         Button(action: {
-                            Text("login with hanyang potal")
+                            //Text("login with hanyang potal")
                         }, label: {
                             Image("hanyanglogo")
                                 .resizable()

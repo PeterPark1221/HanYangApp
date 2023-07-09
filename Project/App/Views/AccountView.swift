@@ -58,7 +58,7 @@ struct AccountView: View {
                         .frame(maxWidth: . infinity, alignment: .leading)
                     .padding(.leading)
                     
-                    Text("*Your password must between 4 and 6 characters")
+                    Text("*Your password must between 6 and 9 characters")
                         .font(.system(size: 10))
                         .foregroundColor(.gray)
                         .frame(width: 245)
