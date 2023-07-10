@@ -34,7 +34,7 @@ struct ContentView: View {
                 }
                 
             // 개인정보수정& 피드백 기능
-            Text("Myprofile")
+            MyprofileView()
                 .tabItem{
                     Image(systemName: "person.circle")
                     Text("Info")
